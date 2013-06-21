@@ -6,7 +6,7 @@
 
 class steam {
   package { 'Steam':
-    provider => 'appdmg',
+    provider => 'appdmg_eula',
     source   => 'http://media.steampowered.com/client/installer/steam.dmg',
   }
 }
